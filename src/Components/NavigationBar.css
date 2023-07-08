@@ -1,0 +1,32 @@
+.navigation {
+  height: 50px;
+  background-color: #00265a;
+  display: flex;
+  justify-content: center;
+}
+
+.navigationContainer {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigationLogo {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navigationButton {
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+  background-color: #3d91ff;
+}

@@ -1,0 +1,82 @@
+.HotelsListPageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.HotelsListPageContainer > h1 {
+  color: white;
+}
+
+.SearchResultContainer {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  gap: 20px;
+}
+
+.HotelsListPageSearch {
+  flex: 1;
+  background-color: #00265a;
+  position: sticky;
+  height: max-content;
+  border-radius: 10px;
+  padding: 0px 10px 20px 10px;
+  top: 10px;
+}
+
+.HotelsListPageResult {
+  flex: 3;
+  padding: 0px 10px 20px 10px;
+  border-radius: 10px;
+  background-color: #00265a;
+  gap: 20px;
+}
+
+.SearchTitle {
+  color: white;
+}
+
+.SearchInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ListSearchButton {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.SearchInput {
+  color: #003580;
+  border: none;
+  outline: none;
+  background-color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.dateAlwaysOn {
+  width: 100%;
+}
+
+.OptionItemSearch {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PlusMinus {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}

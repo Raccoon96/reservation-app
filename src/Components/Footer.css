@@ -1,0 +1,42 @@
+.BackgroundFooter {
+  width: 100%;
+  background-color: #00265a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer {
+  width: 100%;
+  max-width: 800px;
+  font-size: 12px;
+}
+
+.List {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00265a;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.footerText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footerListItem {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
